@@ -1,0 +1,184 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .container{
+        width: 970px;
+    }
+    .header-top-icon {
+        text-align: center;
+        width: 42px;
+        margin: 10px 6px 0px -3px;
+    }
+    .home-banner-content {
+        left: 50% !important;
+        text-align: left !important;
+    }
+    .home-banner-content h1 {
+        padding: 0px !important;
+        font-size: 43px !important;
+        text-align: center !important;
+    }
+    .home-banner-content p {
+        padding: 0 !important;
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+    .button2 {
+        display: block !important;
+        text-align: center !important;
+    }
+    .banner-bottom-details2 {
+        left: 400px !important;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width: 750px;
+    }
+    .header-top-icon {
+        text-align: center;
+        width: 42px;
+        margin: 10px 6px 0px -3px;
+    }
+    .home-banner-content {
+        left: 50% !important;
+        text-align: left !important;
+    }
+    .home-banner-content h1 {
+        padding: 0px !important;
+        font-size: 43px !important;
+        text-align: center !important;
+    }
+    .home-banner-content p {
+        padding: 0 !important;
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+    .button2 {
+        display: block !important;
+        text-align: center !important;
+    }
+    .about-left h2 {
+        font-size: 28px  !important;
+    }
+    .about-right {
+        padding-top: 155px  !important;
+    }
+    .about-right p {
+        font-size: 21px  !important;
+    }
+    .about-right span {
+        word-spacing: 0px  !important;
+    }
+    .button2 {
+        margin-top: 22px  !important;
+    }
+    .button2 a {
+        font-size: 14px  !important;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .container-fluid{
+        width: 320;
+    }
+    .social-icon {
+        text-align: center;
+    }
+    .header-top-details {
+        padding-top: 19px !important;
+        padding-bottom: 19px !important;
+        text-align: center !important;
+    }
+    .header-top-icon-details::before {
+        left: -9px !important;
+    }
+    .button a {
+        padding: 18px 0px 18px 0px !important;
+    }
+    .logo {
+        width: 100% !important;
+        padding-top: 17px !important;
+        text-align: center !important;
+    }
+    .menu ul li {
+        display: inline-block !important;
+        padding: 19px 0px 7px 21px !important;
+    }
+    .home-banner-content {
+        left: 50% !important;
+        text-align: left !important;
+    }
+    .home-banner-content h1 {
+        padding: 0px !important;
+        font-size: 43px !important;
+        text-align: center !important;
+    }
+    .home-banner-content p {
+        padding: 0 !important;
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+    .button2 {
+        display: block !important;
+        text-align: center !important;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container-fluid{
+        width: 450;
+    }
+    .social-icon {
+        text-align: center;
+    }
+    .header-top-details {
+        padding-top: 19px !important;
+        padding-bottom: 19px !important;
+        text-align:  center !important;
+    }
+    .header-top-icon-details::before {
+        left: -9px !important;
+    }
+    .button a {
+        padding: 18px 0px 18px 0px !important;
+    }
+    .logo {
+        width: 100% !important;
+        padding-top: 17px !important;
+        text-align: center !important;
+    }
+    .menu ul li {
+        display: inline-block !important;
+        padding: 19px 0px 7px 21px !important;
+    }
+    .home-banner-content {
+        left: 50% !important;
+        text-align: left !important;
+    }
+    .home-banner-content h1 {
+        padding: 0px !important;
+        font-size: 43px !important;
+        text-align: center !important;
+    }
+    .home-banner-content p {
+        padding: 0 !important;
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+    .button2 {
+        display: block !important;
+        text-align: center !important;
+    }
+    
+}
