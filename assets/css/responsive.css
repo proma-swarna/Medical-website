@@ -30,6 +30,34 @@
     .banner-bottom-details2 {
         left: 400px !important;
     }
+    .book-details p {
+        font-size: 28px !important;
+        margin-top: 15px !important;
+    }
+    .button4 a {
+        padding: 8px 29px !important;
+        font-size: 15px !important;
+    }
+    .single-testimonial-left::after {
+        width: 100% !important;
+        left: 11px !important;
+    }
+    .single-testimonial-left img {
+        width: 220px !important;
+    }
+    .single-testimonial-right p {
+        font-size: 24px !important;
+        padding: 28px !important;
+    }
+    .services-header h2 {
+        padding-right: 0px !important; 
+    }
+    .single-project-content p {
+        font-size: 16px !important;
+    }
+    .specialist-header h2 {
+        padding-right: 0px !important; 
+    }
 }
 
 
@@ -80,6 +108,54 @@
     .button2 a {
         font-size: 14px  !important;
     }
+    .button4 {
+        margin-top: 30px !important;
+        left: 50%;
+        position: relative;
+        transform: translate(-50%);
+    }
+    .services-header h2 {
+        font-size: 30px !important;
+        word-spacing: 4px !important;
+        padding-right: 0px !important;
+    }
+    .single-service1, .single-service2{
+        margin-bottom: 30px;
+    }
+    .single-service1::before,.single-service2::before,.single-service3::before,.single-service4::before {
+        top: 24px !important;
+        left: 127px !important;
+    }
+    .testimonial-area{
+        text-align: center !important;
+    }
+    .single-testimonial-left::after {
+        left: 197px !important;
+    }
+    .single-testimonial-left img {
+        width: 220px !important;
+    }
+    .single-testimonial-right-img1 img {
+        margin-top: 85px !important;
+    }
+    .single-testimonial-right p {
+        font-size: 24px !important;
+    }
+    .pd-left img {
+        width: 145px !important;
+        margin-left: 15px !important;
+        position: relative !important;
+        left: 50% !important;
+        transform: translate(-50%) !important;
+    }
+    .single-project-content {
+        padding: 14px !important;
+        width: 93% !important;
+        opacity: 0.9 !important;
+    }
+    .single-project-content p {
+        font-size: 11px !important;
+    }
 }
 
 
@@ -126,9 +202,79 @@
         font-size: 20px !important;
         text-align: center !important;
     }
+    .about-area{
+        text-align: center;
+    }
     .button2 {
         display: block !important;
         text-align: center !important;
+    }
+    .button4 {
+        margin-top: 30px !important;
+        left: 50%;
+        position: relative;
+        transform: translate(-50%);
+    }
+    .services-header {
+        text-align: center !important;
+    }
+    .services-header h2 {
+        padding-right: 0px !important;
+    }
+    .button3 {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        display: block !important;
+    }
+    .button3 a {
+        font-size: 16px!important;
+    }
+    .single-service1::before,.single-service2::before,.single-service3::before,.single-service4::before {
+        top: 23px !important;
+        left: 216px !important;
+    }
+    .single-service1, .single-service2, .single-service3, .single-service4 {
+        margin-bottom: 35px !important;
+    }
+    .testimonial-area{
+        text-align: center !important;
+    }
+    .single-testimonial-left::after {
+        left: 110px !important;
+    }
+    .single-testimonial-left img {
+        width: 220px !important;
+    }
+    .single-testimonial-right-img1 img {
+        margin-top: 85px !important;
+    }
+    .single-testimonial-right p {
+        font-size: 17px !important;
+    }
+    .pd-left img {
+        width: 145px !important;
+        margin-left: 15px !important;
+        position: relative !important;
+        left: 50% !important;
+        transform: translate(-50%) !important;
+    }
+    .specialist-header {
+        text-align: center !important;
+    }
+    .specialist-header h2 {
+        padding-right: 0px !important;
+    }
+    .single-project {
+        text-align: center !important;
+        margin-bottom: 30px !important;
+    }
+    .single-project-content p {
+        font-size: 16px !important;
+    }
+    .single-project-content {
+        left: 15% !important;
+        padding: 16px !important;
+        width: 70% !important;
     }
 }
 
@@ -176,9 +322,57 @@
         font-size: 20px !important;
         text-align: center !important;
     }
+    .about-area{
+        text-align: center;
+    }
     .button2 {
         display: block !important;
         text-align: center !important;
     }
-    
+    .button4 {
+        margin-top: 30px !important;
+        left: 50%;
+        position: relative;
+        transform: translate(-50%);
+    }
+    .testimonial-area{
+        text-align: center !important;
+    }
+    .single-testimonial-left::after {
+        left: 110px !important;
+    }
+    .single-testimonial-left img {
+        width: 220px !important;
+    }
+    .single-testimonial-right-img1 img {
+        margin-top: 85px !important;
+    }
+    .single-testimonial-right p {
+        font-size: 17px !important;
+    }
+    .pd-left img {
+        width: 145px !important;
+        margin-left: 15px !important;
+        position: relative !important;
+        left: 50% !important;
+        transform: translate(-50%) !important;
+    }
+    .specialist-header {
+        text-align: center !important;
+    }
+    .specialist-header h2 {
+        padding-right: 0px !important;
+    }
+    .single-project {
+        text-align: center !important;
+        margin-bottom: 30px !important;
+    }
+    .single-project-content p {
+        font-size: 16px !important;
+    }
+    .single-project-content {
+        left: 15% !important;
+        padding: 16px !important;
+        width: 70% !important;
+    }
 }

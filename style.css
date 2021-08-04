@@ -434,7 +434,7 @@ a{
 	top: 0;
 	background-repeat: no-repeat;
 	z-index: -1;
-	right: -4%;
+	right: 0%;
 }
 .book-details p {
 	color: #222222;
@@ -659,6 +659,19 @@ a{
 .specialist-area, .news-area{
     position: relative;
 	background-color: #f9f9f9;
+}
+.specialist-header span {
+	font-size: 16px;
+	font-weight: 400;
+	color: #13316e;
+}
+.specialist-header h2{
+    font-size: 38px;
+	font-weight: 400;
+	padding-top: 30px;
+	word-spacing: -2px;
+    padding-bottom: 30px;
+    padding-right: 65px;
 }
 .specialists-detals{
 	background-color: #eaecf1;
