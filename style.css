@@ -34,6 +34,7 @@ img{
 ul{
     list-style: none;
     padding-left: 0;
+	margin-bottom: 0px;
 }
 a{
     text-decoration: none;
@@ -236,10 +237,10 @@ a{
     background-color: #13316e;
 }
 .button a {
-    display: inline-block;
-    padding: 18px 0px 0px 0px;
-    color: #fff;
-    font-size: 13px;
+	display: inline-block;
+	padding: 17px 0px 19px 0px;
+	color: #fff;
+	font-size: 13px;
 }
 .button a img {
     padding: 4px;
@@ -249,9 +250,12 @@ a{
 	width: 100px;
 	padding-top: 17px;
 }
+.menu ul {
+	text-align: right;
+}
 .menu ul li {
 	display: inline-block;
-	padding: 19px 0px 7px 28px;
+	padding: 19px 0px 19px 28px;
 }
 .menu ul li a {
 	display: block;
@@ -331,36 +335,37 @@ a{
 	font-weight: 400;
 	font-size: 20px;
 }
+.banner-bottom{
+	z-index: 1;
+	position: relative;
+}
+.banner-bottom-details.margin-top {
+	padding-top: 20px;
+	background-color: #fff;
+	transform: translateY(-14px);
+	border-radius: 2px 0px 0px 0px;
+	padding-bottom: 0;
+}
 .banner-bottom-details {
 	background-color: #13316e;
 	padding: 15px 0px;
 }
-.banner-bottom-details2 {
-	background-color: #fff;
-	position: absolute;
-	left: 450px;
-	z-index: 1;
-	padding: 21px;
-	border-radius: 2px 0px 0px 0px;
-	top: 117%;
-}
 .banner-bottom-details img{
 	width: 20px;
 }
-.banner-bottom-details2 img {
-	width: 40px;
+.banner-bottom-details.margin-top img {
+	width: 35px;
 }
 .banner-bottom-details span {
 	font-size: 12px;
 	font-weight: 400;
 	color: #f9f9f9;
-	padding-left: 10px;
 }
-.banner-bottom-details2 span {
+.banner-bottom-details.margin-top span {
 	font-size: 20px;
 	font-weight: 500;
 	color: #0f2658;
-	padding-left: 10px;
+	padding: 10px;
 }
 /* home-banner area end */
 /* about area start */
@@ -434,7 +439,7 @@ a{
 	top: 0;
 	background-repeat: no-repeat;
 	z-index: -1;
-	right: 0%;
+	right: -4%;
 }
 .book-details p {
 	color: #222222;
@@ -521,7 +526,6 @@ a{
 	padding-top: 30px;
 	word-spacing: -2px;
     padding-bottom: 30px;
-    padding-right: 65px;
 }
 .single-service1,.single-service2,.single-service3,.single-service4{
     position: relative;
@@ -685,18 +689,50 @@ a{
 	font-size: 20px;
 	font-weight: 400;
 }
-.specialists.owl-prev {
-	position: absolute;
-	
+.specialists{
+	position: relative;
 }
-.specialists.owl-next {
+.specialists .owl-prev {
 	position: absolute;
-	
+	top: -60px;
+	right: 36px;
 }
-.specialists.owl-prev i ,.specialists.owl-next i{
+.specialists .owl-next {
+	position: absolute;
+	top: -60px;
+	right: 0;
+}
+.specialists .owl-prev i ,.specialists .owl-next i{
 	padding: 10px;
-    font-size: 35px;
-	color: red;
+    font-size: 13px;
+	color: #a9b7d1;
+	border: 1px solid #a9b7d1;
+}
+.single-specialist{
+	position: relative;
+}
+.social-icon2 {
+	position: absolute;
+	bottom: 0;
+	left: 15px;
+	width: 89%;
+	height: 22%;
+	background-color: #143475;
+	opacity: 0;
+	text-align: center;
+	transition: .5s;
+}
+.social-icon2 i {
+	color: #eaecf1;
+	font-size: 12px;
+	padding: 5px 5px;
+	border: 1px solid #eaecf1;
+	border-radius: 50%;
+	margin-top: 29px;
+}
+.single-specialist:hover .social-icon2{
+	bottom: 100px;
+	opacity: 0.9;
 }
 /* specialist area end */
 
@@ -742,22 +778,26 @@ a{
 .sponsor{
 	padding: 25px;
 	background-color: #fff;
+	position: relative;
 }
 .single-sponsor img {
-	padding: 14px !important;
+	padding-top: 14px !important;
 }
-.sponsor.owl-prev {
+.sponsor .owl-prev {
 	position: absolute;
-	
+	top: 26%;
+	left: -26px;
 }
-.sponsor.owl-next {
+.sponsor .owl-next {
 	position: absolute;
-	
+	top: 26%;
+	right: -26px;
 }
-.sponsor.owl-prev i ,.sponsor.owl-next i{
-	padding: 10px;
-    font-size: 35px;
-	color: red;
+.sponsor .owl-prev i, .sponsor .owl-next i {
+	padding: 12px;
+	font-size: 15px;
+	color: #a9b7d1;
+	border: 1px solid #a9b7d1;
 }
 /* sponsor area end */
 
@@ -1112,12 +1152,12 @@ a{
 	width: 100px;
 	padding-bottom: 20px;
 }
-.departments h6 {
+.departments h6,.links h6 {
 	padding-bottom: 13px;
 	position: relative;
     font-size: 20px;
 }
-.departments h6::before, .contact-us h6::before {
+.departments h6::before, .contact-us h6::before,.links h6::before {
 	content: "";
 	position: absolute;
 	top: -9px;
@@ -1129,7 +1169,8 @@ a{
 }
 .contact-us h6 {
 	padding-bottom: 11px;
-    position: relative;
+	position: relative;
+	font-size: 20px;
 }
 .about {
 	text-align: justify;
@@ -1144,14 +1185,11 @@ a{
 .about-address span{
     display: inline-flex;
 }
-.departments ul li {
+.departments ul li,.links ul li {
 	padding-bottom: 9px;
 }
 .contact-us span{
 	margin-bottom: 8px;
-}
-.contact-us span {
-	padding: 0px 2px 0px 0px;
 }
 .contact-number span {
     display: inline-flex;
@@ -1168,4 +1206,5 @@ a{
 .home-footer-bottom {
 	border-top: 1px solid #bfc7d7;
 }
+
 /* footer area end */

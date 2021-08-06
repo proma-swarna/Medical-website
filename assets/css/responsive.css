@@ -23,20 +23,34 @@
         font-size: 20px !important;
         text-align: center !important;
     }
+    .about-right span {
+        margin: -8px !important;
+    }
     .button2 {
-        display: block !important;
-        text-align: center !important;
+        display: inline-block !important;
+        margin-top: 42px !important;
+        position: relative !important;
+        left: 50% !important;
+        transform: translate(-50%) !important;
     }
     .banner-bottom-details2 {
         left: 400px !important;
+        top: 126% !important;
     }
     .book-details p {
         font-size: 28px !important;
         margin-top: 15px !important;
     }
+    .book-button::after {
+        right: 0% !important;
+    }
     .button4 a {
         padding: 8px 29px !important;
         font-size: 15px !important;
+    }
+    .single-service1::before,.single-service2::before,.single-service3::before,.single-service4::before {
+        top: 23px !important;
+        left: 66px !important;
     }
     .single-testimonial-left::after {
         width: 100% !important;
@@ -58,6 +72,54 @@
     .specialist-header h2 {
         padding-right: 0px !important; 
     }
+    .home-blog-details-content::before {
+        top: -25px !important;
+        right: 21px !important;
+        width: 15% !important;
+        height: 26% !important;
+        content: "25" !important;
+        font-size: 18px !important;
+    }
+    .home-blog-details-content::after {
+        right: 31px !important;
+        content: "Aug" !important;
+        font-size: 14px !important;
+    }
+    .home-blog-details-content p::before {
+        right: 17px !important;
+    }
+    .email-details span {
+        font-size: 15px !important;
+    }
+    .departments h6,.links h6 {
+        padding-bottom: 13px !important;
+        position: relative !important;
+        font-size: 18px !important;
+    }
+    .home-footer span,.footer span {
+        font-size: 13px !important;
+    }
+    .departments ul li,.links ul li {
+        padding-bottom: 6px !important;
+    }
+    .time{
+        text-align: left !important;
+    }
+    .address ul li  span {
+        font-size: 13px !important;
+    }
+    .time-schedule ul li span{
+        font-size: 13px !important;
+    }
+    .sponsor .owl-next {
+        right: -16px !important;
+    }
+    .sponsor .owl-prev {
+        left: -16px !important;
+    }
+    .search-input::before {
+        left: 233px !important;
+    }
 }
 
 
@@ -68,9 +130,13 @@
         width: 750px;
     }
     .header-top-icon {
-        text-align: center;
-        width: 42px;
-        margin: 10px 6px 0px -3px;
+        text-align: center !important;
+        width: 42px !important;
+        margin: 10px 6px 0px -3px !important;
+    }
+    .menu ul li a {
+        font-size: 14px !important;
+       
     }
     .home-banner-content {
         left: 50% !important;
@@ -86,6 +152,12 @@
         font-size: 20px !important;
         text-align: center !important;
     }
+    .banner-bottom-details.margin-top span {
+        font-size: 15px !important;
+    }
+    .banner-bottom-details.margin-top img {
+        width: 28px !important;
+    }
     .button2 {
         display: block !important;
         text-align: center !important;
@@ -96,11 +168,17 @@
     .about-right {
         padding-top: 155px  !important;
     }
+    .contact-right p {
+        padding: 17px 67px 17px 18px !important;
+    }
     .about-right p {
         font-size: 21px  !important;
     }
     .about-right span {
         word-spacing: 0px  !important;
+    }
+    .date-field img {
+        right: 67px !important;
     }
     .button2 {
         margin-top: 22px  !important;
@@ -156,6 +234,84 @@
     .single-project-content p {
         font-size: 11px !important;
     }
+    .home-blog-details-content::before {
+        top: -22px !important;
+        right: 14px !important;
+        width: 17% !important;
+        height: 20% !important;
+        content: "25" !important;
+        font-size: 16px !important;
+    }
+    .home-blog-details-content p::before {
+        top: -36px !important;
+        right: 10px !important;
+        width: 9% !important;
+        height: 1% !important;
+    }
+    .home-blog-details-content::after {
+        top: 5px !important;
+        right: 22px !important;
+        font-size: 12px !important;
+    }
+    .home-blog-details-content p {
+        font-size: 17px !important;
+    }
+    .blog-bottom span {
+        position: relative !important;
+        left: 20% !important;
+        transform: translate(-20%) !important;
+    }
+    .blog-bottom a {
+        font-size: 14px !important;
+        left: -15% !important;
+        transform: translate(-20%);
+        position: relative !important;
+    }
+    .book-button::after {
+        right: 0% !important;
+    }
+    .book-details2 img {
+        width: 45px !important;
+        float: right !important;
+    }
+    .sponsor .owl-prev {
+        left: -14px !important;
+    }
+    .sponsor .owl-next {
+        right: -14px !important;
+    }
+    .date-field input {
+        width: 75% !important;
+        position: relative !important;
+        left: 49% !important;
+        transform: translate(-50%) !important;
+    }
+    .about span {
+        font-size: 14px !important;
+    }
+    .links span,.contact-us span {
+        font-size: 14px !important;
+    }
+    .departments ul li, .links ul li {
+        padding-bottom: 4px !important;
+    }
+    .departments h6 {
+        position: relative !important;
+        transform: translate(-50%) !important;
+        left: 50% !important;
+    }
+    .time{
+        text-align: left !important;
+    }
+    .address ul li  span {
+        font-size: 13px !important;
+    }
+    .time-schedule ul li span{
+        font-size: 13px !important;
+    }
+    .search-input::before {
+        left: 574px !important;
+    }
 }
 
 
@@ -186,7 +342,7 @@
     }
     .menu ul li {
         display: inline-block !important;
-        padding: 19px 0px 7px 21px !important;
+        padding: 19px 0px 19px 18px !important;
     }
     .home-banner-content {
         left: 50% !important;
@@ -228,6 +384,10 @@
     }
     .button3 a {
         font-size: 16px!important;
+    }
+    .banner-bottom-details.margin-top span {
+        font-size: 16px !important;
+        padding: 4px !important;
     }
     .single-service1::before,.single-service2::before,.single-service3::before,.single-service4::before {
         top: 23px !important;
@@ -276,6 +436,116 @@
         padding: 16px !important;
         width: 70% !important;
     }
+    .home-blog-details {
+        text-align: center !important;
+        margin-bottom: 15px !important;
+    }
+    .home-blog-details-content::before {
+        top: -31px !important;
+        right: 89px !important;
+        width: 11% !important;
+        height: 25% !important;
+        font-size: 17px !important;
+    }
+    .home-blog-details-content p::before {
+        top: -40px !important;
+        right: 89px !important;
+        width: 6% !important;
+        height: 1% !important;
+    }
+    .home-blog-details-content::after {
+        top: 0px !important;
+        right: 105px !important;
+        font-size: 13px !important;
+    }
+    .blog-bottom a {
+        font-size: 14px !important;
+        font-weight: 300 !important;
+        position:  relative!important;
+        left: -36% !important;
+        transform: translate(-20%);
+
+    }
+    .banner-bottom-details.margin-top img {
+        width: 25px !important;
+    }
+    .sponsor .owl-prev {
+        left: -15px !important;
+    }
+    .sponsor .owl-next {
+        right: -15px !important;
+    }
+    .book-button::after {
+        right: 0% !important;
+    }
+    .email-details span {
+        font-size: 14px !important;
+    }
+    .book-details2 img {
+        width: 45px !important;
+        float: right !important;
+    }
+    .date-field input {
+        width: 86% !important;
+        position: relative !important;
+        left: 54% !important;
+        transform: translate(-50%) !important;
+    }
+    .home-footer, .home-footer-bottom {
+        text-align: center !important;
+        font-size: 15px !important;
+    }
+    .about {
+        text-align: center !important;
+        padding: 0px 50px 0px 50px !important;
+    }
+    .about-address {
+        text-align: center !important; 
+    }
+    .logo2 {
+        width: 130px !important;
+        padding-bottom: 30px !important;
+        position: relative !important;
+        left: 50% !important;
+        transform: translate(-50%) !important;
+    }
+    .about-address span {
+        padding-bottom: 15px !important;
+    }
+    .contact-us {
+        padding: 0px 50px 0px 50px !important;
+        left: 50% !important;
+        position: relative !important;
+        transform: translate(-50%) !important;
+    }
+    .day span {
+        padding: 0px 0px 0px 86px !important;
+    }
+    .time span {
+        padding: 0px 105px 0px 0px !important;
+    }
+    .departments h6::before, .links h6::before {
+        left: 253px !important;
+    }
+    .contact-us h6::before{
+        left: 206px !important;
+    }
+    .address ul li  span {
+        font-size: 13px !important;
+    }
+    .time-schedule ul li span{
+        font-size: 13px !important;
+    }
+    .blog-details span {
+        padding-right: 41px !important;
+    }
+    .search-input::before {
+        left: 424px !important;
+    }
+    .checkbox span {
+        margin-left: -21px !important;
+    }
+
 }
 
 
@@ -299,6 +569,9 @@
     .button a {
         padding: 18px 0px 18px 0px !important;
     }
+    .book-button::after {
+        width: 52% !important;
+    }
     .logo {
         width: 100% !important;
         padding-top: 17px !important;
@@ -306,7 +579,7 @@
     }
     .menu ul li {
         display: inline-block !important;
-        padding: 19px 0px 7px 21px !important;
+        padding: 19px 0px 19px 18px !important;
     }
     .home-banner-content {
         left: 50% !important;
@@ -374,5 +647,82 @@
         left: 15% !important;
         padding: 16px !important;
         width: 70% !important;
+    }
+    .banner-bottom-details.margin-top span {
+        font-size: 12px !important;
+        padding: 0px !important;
+    }
+    .banner-bottom-details.margin-top img {
+        width: 25px !important;
+    }
+    .home-blog-details {
+        text-align: center !important;
+        margin-bottom: 15px !important;
+    }
+    .home-blog-details-content::before {
+        top: -31px !important;
+        right: 89px !important;
+        width: 11% !important;
+        height: 25% !important;
+        font-size: 17px !important;
+    }
+    .home-blog-details-content p::before {
+        top: -40px !important;
+        right: 89px !important;
+        width: 6% !important;
+        height: 1% !important;
+    }
+    .home-blog-details-content::after {
+        top: 0px !important;
+        right: 105px !important;
+        font-size: 13px !important;
+    }
+    .book-button::after {
+        right: 0% !important;
+    }
+    .blog-bottom a {
+        font-size: 14px !important;
+        font-weight: 300 !important;
+        position:  relative!important;
+        left: -36% !important;
+        transform: translate(-20%);
+
+    }
+    .book-details2 img {
+        width: 45px !important;
+        float: right !important;
+    }
+    .date-field input {
+        width: 86% !important;
+        position: relative !important;
+        left: 54% !important;
+        transform: translate(-50%) !important;
+    }
+    .day span {
+        padding: 0px 0px 0px 86px !important;
+    }
+    .time span {
+        padding: 0px 105px 0px 0px !important;
+    }
+    .departments h6::before, .links h6::before {
+        left: 253px !important;
+    }
+    .contact-us h6::before{
+        left: 206px !important;
+    }
+    .address ul li  span {
+        font-size: 13px !important;
+    }
+    .time-schedule ul li span{
+        font-size: 13px !important;
+    }
+    .blog-details span {
+        padding-right: 41px !important;
+    }
+    .search-input::before {
+        left: 424px !important;
+    }
+    .checkbox span {
+        margin-left: -21px !important;
     }
 }
