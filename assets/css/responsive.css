@@ -210,14 +210,14 @@
     .single-testimonial-left::after {
         left: 197px !important;
     }
-    .single-testimonial-left img {
-        width: 220px !important;
-    }
     .single-testimonial-right-img1 img {
         margin-top: 85px !important;
     }
     .single-testimonial-right p {
         font-size: 24px !important;
+    }
+    .single-testimonial-left::after {
+        left: 194px !important;
     }
     .pd-left img {
         width: 145px !important;
@@ -322,15 +322,17 @@
         width: 320;
     }
     .social-icon {
-        text-align: center;
-    }
-    .header-top-details {
-        padding-top: 19px !important;
-        padding-bottom: 19px !important;
         text-align: center !important;
     }
+    .header-top-icon {
+        visibility: hidden !important;
+    }
+    .header-top-icon-details {
+        text-align: center !important;
+        margin-top: -35px !important;
+    }
     .header-top-icon-details::before {
-        left: -9px !important;
+        visibility: hidden !important;
     }
     .button a {
         padding: 18px 0px 18px 0px !important;
@@ -338,6 +340,9 @@
     .logo {
         width: 100% !important;
         padding-top: 17px !important;
+        text-align: center !important;
+    }
+    .menu ul {
         text-align: center !important;
     }
     .menu ul li {
@@ -350,20 +355,59 @@
     }
     .home-banner-content h1 {
         padding: 0px !important;
-        font-size: 43px !important;
+        font-size: 18px !important;
         text-align: center !important;
+        font-weight: 500 !important;
     }
     .home-banner-content p {
         padding: 0 !important;
-        font-size: 20px !important;
+        font-size: 10px !important;
         text-align: center !important;
     }
+    .banner-bottom-details {
+        padding: 27px 0px !important;
+    }
     .about-area{
-        text-align: center;
+        text-align: center !important;
+    }
+    .about-left h2 ,.specialist-header h2 {
+        font-size: 20px !important;
+    }
+    .about-right p {
+        font-size: 19px !important;
+    }
+    .about-right span {
+        font-size: 12px !important;
+    }
+    .book-button::before {
+        left: 16px !important;
+        width: 90% !important;
+    }
+    .book-details p {
+        font-size: 22px !important;
+        margin-top: -15px !important;
+    }
+    .option-field select {
+        padding: 8px !important;
+        width: 95% !important;
+    }
+    .date-field input {
+        width: 96% !important;
+        position: relative !important;
+    }
+    .date-field img {
+        visibility: hidden !important;
+    }
+    .book-button::after {
+        width: 58% !important;
+        right: 5% !important;
     }
     .button2 {
         display: block !important;
         text-align: center !important;
+    }
+    .services-header h2 {
+        font-size: 20px !important;
     }
     .button4 {
         margin-top: 30px !important;
@@ -387,23 +431,21 @@
     }
     .banner-bottom-details.margin-top span {
         font-size: 16px !important;
-        padding: 4px !important;
     }
-    .single-service1::before,.single-service2::before,.single-service3::before,.single-service4::before {
-        top: 23px !important;
-        left: 216px !important;
+    .single-service1::before, .single-service2::before, .single-service3::before, .single-service4::before {
+       visibility: hidden !important;
     }
     .single-service1, .single-service2, .single-service3, .single-service4 {
         margin-bottom: 35px !important;
+    }
+    .services::after {
+        left: 0px !important;
     }
     .testimonial-area{
         text-align: center !important;
     }
     .single-testimonial-left::after {
-        left: 110px !important;
-    }
-    .single-testimonial-left img {
-        width: 220px !important;
+        visibility: hidden !important;
     }
     .single-testimonial-right-img1 img {
         margin-top: 85px !important;
@@ -411,11 +453,14 @@
     .single-testimonial-right p {
         font-size: 17px !important;
     }
+    .single-testimonial-right span {
+        margin-left: 0px !important; 
+    }
     .pd-left img {
         width: 145px !important;
         margin-left: 15px !important;
         position: relative !important;
-        left: 50% !important;
+        left: 48% !important;
         transform: translate(-50%) !important;
     }
     .specialist-header {
@@ -423,6 +468,23 @@
     }
     .specialist-header h2 {
         padding-right: 0px !important;
+    }
+    .specialists .owl-prev i, .specialists .owl-next i {
+        padding: 5px !important;
+        font-size: 9px !important;
+    }
+    .specialists .owl-prev {
+        top: -32px !important;
+    }
+    .specialists .owl-next {
+        top: -32px !important;
+    }
+    .sponsor .owl-prev i, .sponsor .owl-next i {
+        padding: 5px !important;
+        font-size: 10px !important;
+    }
+    .sponsor .owl-prev,.sponsor .owl-next {
+        top: 33% !important;
     }
     .single-project {
         text-align: center !important;
@@ -441,55 +503,40 @@
         margin-bottom: 15px !important;
     }
     .home-blog-details-content::before {
-        top: -31px !important;
-        right: 89px !important;
-        width: 11% !important;
-        height: 25% !important;
-        font-size: 17px !important;
+       visibility: hidden !important;
     }
     .home-blog-details-content p::before {
-        top: -40px !important;
-        right: 89px !important;
-        width: 6% !important;
-        height: 1% !important;
+        visibility: hidden !important;
     }
     .home-blog-details-content::after {
-        top: 0px !important;
-        right: 105px !important;
-        font-size: 13px !important;
+       visibility: hidden !important;
     }
     .blog-bottom a {
-        font-size: 14px !important;
-        font-weight: 300 !important;
-        position:  relative!important;
-        left: -36% !important;
-        transform: translate(-20%);
-
+        font-size: 11px !important;
+    }
+    .home-blog-details-content p {
+        font-size: 15px !important;
+    }
+    .home-blog-details-content span {
+        font-size: 12px !important;
     }
     .banner-bottom-details.margin-top img {
         width: 25px !important;
     }
     .sponsor .owl-prev {
-        left: -15px !important;
+        left: 4px !important;
     }
     .sponsor .owl-next {
-        right: -15px !important;
-    }
-    .book-button::after {
-        right: 0% !important;
+        right: 4px !important;
     }
     .email-details span {
         font-size: 14px !important;
     }
     .book-details2 img {
-        width: 45px !important;
-        float: right !important;
+       visibility: hidden !important;
     }
-    .date-field input {
-        width: 86% !important;
-        position: relative !important;
-        left: 54% !important;
-        transform: translate(-50%) !important;
+    .book-details2 p {
+        margin-top: -49px !important;
     }
     .home-footer, .home-footer-bottom {
         text-align: center !important;
@@ -518,17 +565,8 @@
         position: relative !important;
         transform: translate(-50%) !important;
     }
-    .day span {
-        padding: 0px 0px 0px 86px !important;
-    }
-    .time span {
-        padding: 0px 105px 0px 0px !important;
-    }
-    .departments h6::before, .links h6::before {
-        left: 253px !important;
-    }
-    .contact-us h6::before{
-        left: 206px !important;
+    .departments h6::before, .contact-us h6::before, .links h6::before {
+        visibility: hidden !important;
     }
     .address ul li  span {
         font-size: 13px !important;
@@ -537,15 +575,73 @@
         font-size: 13px !important;
     }
     .blog-details span {
-        padding-right: 41px !important;
+        padding-right: 0px !important;
     }
     .search-input::before {
-        left: 424px !important;
+        visibility: hidden !important;
     }
     .checkbox span {
-        margin-left: -21px !important;
+        margin-left: 29px !important;
+        text-align: center !important;
     }
-
+    .span-clr h2 {
+        font-size: 15px !important;
+    }
+    .blog-pd-img img {
+        width: 40px !important;
+        padding: 15px 0px !important;
+    }
+    .blog-details h2 {
+        font-size: 15px !important;
+        padding-top: 0 !important;
+    }
+    .blog-pd-img{
+        text-align: center !important;
+    }
+    .img-pd {
+        text-align: center !important;
+    }
+    .pd-bottom {
+        padding-bottom: 30px;
+    }
+    .blog-details {
+        padding: 25px !important;
+    }
+    .search-input::before {
+        visibility: hidden !important;
+    }
+    .search-input input {
+        width: 100% !important;
+    }
+    .form {
+        padding: 30px !important;
+    }
+    .form::before {
+        top: -34px !important;
+        left: 135px !important;
+    }
+    .category ul li a {
+        font-size: 14px !important;
+    }
+    .home-footer span,.footer span {
+        font-size: 13px !important;
+    }
+    .gallery-img {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .day,.time {
+        text-align: center !important;
+    }
+    .contact-us span {
+        margin-bottom: 5px !important;
+    }
+    .time-schedule2 {
+        margin-top: 0px !important;
+    }
+    .post span {
+        font-size: 12px !important;
+    }
 }
 
 
@@ -556,30 +652,38 @@
         width: 450;
     }
     .social-icon {
-        text-align: center;
+        text-align: center !important;
     }
-    .header-top-details {
-        padding-top: 19px !important;
-        padding-bottom: 19px !important;
-        text-align:  center !important;
+    .header-top-icon {
+        visibility: hidden !important;
+    }
+    .header-top-icon-details {
+        margin-top: -35px !important;
     }
     .header-top-icon-details::before {
-        left: -9px !important;
+        visibility: hidden !important;
     }
     .button a {
         padding: 18px 0px 18px 0px !important;
-    }
-    .book-button::after {
-        width: 52% !important;
     }
     .logo {
         width: 100% !important;
         padding-top: 17px !important;
         text-align: center !important;
     }
+    .menu ul {
+        text-align: center !important;
+    }
     .menu ul li {
         display: inline-block !important;
         padding: 19px 0px 19px 18px !important;
+    }
+    .menu ul li a {
+        font-size: 12px !important;
+    }
+    .home-banner{
+        background-position: center !important;
+        background-size: cover !important;
     }
     .home-banner-content {
         left: 50% !important;
@@ -595,8 +699,20 @@
         font-size: 20px !important;
         text-align: center !important;
     }
+    .banner-bottom-details {
+        padding: 27px 0px !important;
+    }
     .about-area{
-        text-align: center;
+        text-align: center !important;
+    }
+    .single-service1::before, .single-service2::before, .single-service3::before, .single-service4::before {
+       visibility: hidden !important;
+    }
+    .services::after {
+        left: 0px !important;
+    }
+    .about-left h2 {
+        font-size: 27px !important;
     }
     .button2 {
         display: block !important;
@@ -612,7 +728,7 @@
         text-align: center !important;
     }
     .single-testimonial-left::after {
-        left: 110px !important;
+        visibility: hidden !important;
     }
     .single-testimonial-left img {
         width: 220px !important;
@@ -623,11 +739,14 @@
     .single-testimonial-right p {
         font-size: 17px !important;
     }
+    .single-testimonial-right span {
+        margin-left: 0px !important; 
+    }
     .pd-left img {
         width: 145px !important;
         margin-left: 15px !important;
         position: relative !important;
-        left: 50% !important;
+        left: 48% !important;
         transform: translate(-50%) !important;
     }
     .specialist-header {
@@ -635,6 +754,23 @@
     }
     .specialist-header h2 {
         padding-right: 0px !important;
+    }
+    .specialists .owl-prev i, .specialists .owl-next i {
+        padding: 5px !important;
+        font-size: 9px !important;
+    }
+    .specialists .owl-prev {
+        top: -32px !important;
+    }
+    .specialists .owl-next {
+        top: -32px !important;
+    }
+    .sponsor .owl-prev i, .sponsor .owl-next i {
+        padding: 5px !important;
+        font-size: 10px !important;
+    }
+    .sponsor .owl-prev,.sponsor .owl-next {
+        top: 33% !important;
     }
     .single-project {
         text-align: center !important;
@@ -649,8 +785,7 @@
         width: 70% !important;
     }
     .banner-bottom-details.margin-top span {
-        font-size: 12px !important;
-        padding: 0px !important;
+        font-size: 15px !important;
     }
     .banner-bottom-details.margin-top img {
         width: 25px !important;
@@ -660,26 +795,14 @@
         margin-bottom: 15px !important;
     }
     .home-blog-details-content::before {
-        top: -31px !important;
-        right: 89px !important;
-        width: 11% !important;
-        height: 25% !important;
-        font-size: 17px !important;
-    }
-    .home-blog-details-content p::before {
-        top: -40px !important;
-        right: 89px !important;
-        width: 6% !important;
-        height: 1% !important;
-    }
-    .home-blog-details-content::after {
-        top: 0px !important;
-        right: 105px !important;
-        font-size: 13px !important;
-    }
-    .book-button::after {
-        right: 0% !important;
-    }
+        visibility: hidden !important;
+     }
+     .home-blog-details-content p::before {
+         visibility: hidden !important;
+     }
+     .home-blog-details-content::after {
+        visibility: hidden !important;
+     }
     .blog-bottom a {
         font-size: 14px !important;
         font-weight: 300 !important;
@@ -689,26 +812,13 @@
 
     }
     .book-details2 img {
-        width: 45px !important;
-        float: right !important;
+        visibility: hidden !important;
+     }
+    .book-details2 p {
+        margin-top: 0px; 
     }
-    .date-field input {
-        width: 86% !important;
-        position: relative !important;
-        left: 54% !important;
-        transform: translate(-50%) !important;
-    }
-    .day span {
-        padding: 0px 0px 0px 86px !important;
-    }
-    .time span {
-        padding: 0px 105px 0px 0px !important;
-    }
-    .departments h6::before, .links h6::before {
-        left: 253px !important;
-    }
-    .contact-us h6::before{
-        left: 206px !important;
+    .book-details2 p {
+        margin-top: -49px !important;
     }
     .address ul li  span {
         font-size: 13px !important;
@@ -719,10 +829,79 @@
     .blog-details span {
         padding-right: 41px !important;
     }
-    .search-input::before {
-        left: 424px !important;
+    .span-clr h2 {
+        font-size: 15px !important;
+    }
+    .blog-pd-img img {
+        width: 40px !important;
+        padding: 15px 0px !important;
+    }
+    .blog-details span {
+        font-size: 12px !important;
+        line-height: 23px !important;
+    }
+    .blog-details h2 {
+        font-size: 15px !important;
+        padding-top: 0 !important;
+    }
+    .blog-pd-img{
+        text-align: center !important;
+    }
+    .img-pd {
+        text-align: center !important;
+    }
+    .pd-bottom {
+        padding-bottom: 30px;
+    }
+    .blog-details {
+        padding: 25px !important;
+    }
+    .form {
+        padding: 30px !important;
+    }
+    .form::before {
+        top: -34px !important;
+        left: 135px !important;
+    }
+    .form h4, .category h4, .tag h4, .gallery h4 {
+        font-size: 20px !important;
+    }
+    .menu ul {
+        text-align: center !important;
+    }
+    .checkbox input {
+        margin-top: 14px !important;
+        margin-left: 7px !important;
     }
     .checkbox span {
-        margin-left: -21px !important;
+        text-align: center !important;
+    }
+    .search-input input {
+        width: 100% !important;
+    }
+    .search-input::before {
+        visibility: hidden !important;
+    }
+    .category ul li a {
+        font-size: 14px !important;
+    }
+    .gallery-img {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .day,.time {
+        text-align: center !important;
+    }
+    .contact-us span {
+        margin-bottom: 5px !important;
+    }
+    .time-schedule2 {
+        margin-top: 0px !important;
+    }
+    .departments h6::before, .contact-us h6::before, .links h6::before {
+        visibility: hidden !important;
+    }
+    .post span {
+        font-size: 12px !important;
     }
 }

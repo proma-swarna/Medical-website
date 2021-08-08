@@ -54,7 +54,7 @@ $(".sponsor").owlCarousel({
             nav: true
         },
         750:{
-            items: 4,
+            items: 3,
             nav: true
         },
         970:{
