@@ -181,7 +181,8 @@
         right: 67px !important;
     }
     .button2 {
-        margin-top: 22px  !important;
+        margin-top: 22px !important;
+        margin-bottom: 20px !important;
     }
     .button2 a {
         font-size: 14px  !important;
@@ -349,20 +350,33 @@
         display: inline-block !important;
         padding: 19px 0px 19px 18px !important;
     }
+    .home-banner {
+        height: 35% !important;
+        background-size: cover !important;
+        width: 100% !important;
+    }
     .home-banner-content {
-        left: 50% !important;
-        text-align: left !important;
+        left: 51% !important;
+        text-align: center !important;
+        top: 60% !important;
     }
     .home-banner-content h1 {
-        padding: 0px !important;
-        font-size: 18px !important;
-        text-align: center !important;
-        font-weight: 500 !important;
+        padding: 0px !important; 
+    }
+    .home-banner-content h1 {
+        font-size: 14px !important;
     }
     .home-banner-content p {
         padding: 0 !important;
-        font-size: 10px !important;
+        font-size: 9px !important;
         text-align: center !important;
+    }
+    .button2 {
+        margin-top: 10px !important;
+    }
+    .button2 a {
+        padding: 7px 1px !important;
+        font-size: 13px !important;
     }
     .banner-bottom-details {
         padding: 27px 0px !important;
@@ -381,10 +395,10 @@
     }
     .book-button::before {
         left: 16px !important;
-        width: 90% !important;
+        width: 80% !important;
     }
     .book-details p {
-        font-size: 22px !important;
+        font-size: 18px !important;
         margin-top: -15px !important;
     }
     .option-field select {
@@ -479,6 +493,19 @@
     .specialists .owl-next {
         top: -32px !important;
     }
+    .specialists-detals span {
+        font-size: 13px !important;
+    }
+    .specialists-detals p {
+        font-size: 12px !important;
+    }
+    .social-icon2 {
+        left: 8px !important;
+    }
+    .social-icon2 i {
+        font-size: 8px !important;
+        margin-top: 20px !important;
+    }
     .sponsor .owl-prev i, .sponsor .owl-next i {
         padding: 5px !important;
         font-size: 10px !important;
@@ -513,6 +540,9 @@
     }
     .blog-bottom a {
         font-size: 11px !important;
+        position: relative !important;
+        left: -36% !important;
+        transform: translate(-20%);
     }
     .home-blog-details-content p {
         font-size: 15px !important;
@@ -536,7 +566,7 @@
        visibility: hidden !important;
     }
     .book-details2 p {
-        margin-top: -49px !important;
+        margin-top: -57px !important;
     }
     .home-footer, .home-footer-bottom {
         text-align: center !important;
@@ -574,14 +604,12 @@
     .time-schedule ul li span{
         font-size: 13px !important;
     }
-    .blog-details span {
-        padding-right: 0px !important;
-    }
     .search-input::before {
         visibility: hidden !important;
+        left: 100px !important;
     }
     .checkbox span {
-        margin-left: 29px !important;
+        margin-left: 7px !important;
         text-align: center !important;
     }
     .span-clr h2 {
@@ -606,9 +634,6 @@
     }
     .blog-details {
         padding: 25px !important;
-    }
-    .search-input::before {
-        visibility: hidden !important;
     }
     .search-input input {
         width: 100% !important;
@@ -641,6 +666,15 @@
     }
     .post span {
         font-size: 12px !important;
+    }
+    .blog-details span {
+        padding-right: 0px !important;
+    }
+    .time-schedule-day{
+        text-align: center !important;
+    }
+    .time-schedule-time{
+        text-align: center !important;
     }
 }
 
@@ -681,9 +715,11 @@
     .menu ul li a {
         font-size: 12px !important;
     }
-    .home-banner{
+    .home-banner {
         background-position: center !important;
         background-size: cover !important;
+        height: 50% !important;
+        width: 100% !important;
     }
     .home-banner-content {
         left: 50% !important;
@@ -691,13 +727,16 @@
     }
     .home-banner-content h1 {
         padding: 0px !important;
-        font-size: 43px !important;
+        font-size: 28px !important;
         text-align: center !important;
     }
     .home-banner-content p {
         padding: 0 !important;
-        font-size: 20px !important;
+        font-size: 14px !important;
         text-align: center !important;
+    }
+    .button2 {
+        margin-bottom: 55px !important;
     }
     .banner-bottom-details {
         padding: 27px 0px !important;
@@ -713,6 +752,14 @@
     }
     .about-left h2 {
         font-size: 27px !important;
+    }
+    .book-button::before {
+        left: 16px !important;
+        width: 88% !important;
+    }
+    .book-button::after {
+        width: 58% !important;
+        right: -0% !important;
     }
     .button2 {
         display: block !important;
@@ -765,6 +812,13 @@
     .specialists .owl-next {
         top: -32px !important;
     }
+    .social-icon2 {
+        left: 14px !important;
+    }
+    .social-icon2 i {
+        font-size: 10px !important;
+        margin-top: 28px !important;
+    }
     .sponsor .owl-prev i, .sponsor .owl-next i {
         padding: 5px !important;
         font-size: 10px !important;
@@ -815,19 +869,13 @@
         visibility: hidden !important;
      }
     .book-details2 p {
-        margin-top: 0px; 
-    }
-    .book-details2 p {
-        margin-top: -49px !important;
+        margin-top: -57px !important;
     }
     .address ul li  span {
         font-size: 13px !important;
     }
     .time-schedule ul li span{
         font-size: 13px !important;
-    }
-    .blog-details span {
-        padding-right: 41px !important;
     }
     .span-clr h2 {
         font-size: 15px !important;
@@ -839,6 +887,7 @@
     .blog-details span {
         font-size: 12px !important;
         line-height: 23px !important;
+        padding-right: 0px !important;
     }
     .blog-details h2 {
         font-size: 15px !important;
@@ -871,7 +920,7 @@
     }
     .checkbox input {
         margin-top: 14px !important;
-        margin-left: 7px !important;
+        margin-left: 0px !important;
     }
     .checkbox span {
         text-align: center !important;
@@ -903,5 +952,11 @@
     }
     .post span {
         font-size: 12px !important;
+    }
+    .time-schedule-day{
+        text-align: left !important;
+    }
+    .time-schedule-time{
+        text-align: right !important;
     }
 }

@@ -439,7 +439,7 @@ a{
 	top: 0;
 	background-repeat: no-repeat;
 	z-index: -1;
-	right: -4%;
+	right: -2%;
 }
 .book-details p {
 	color: #222222;
@@ -1141,6 +1141,12 @@ a{
 }
 .time-schedule ul li:last-child{
     border-bottom: 0;
+}
+.time-schedule-day{
+	text-align: left;
+}
+.time-schedule-time{
+	text-align: right;
 }
 /* contact area end */
 
