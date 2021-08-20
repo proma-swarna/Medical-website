@@ -255,7 +255,7 @@ a{
 }
 .menu ul li {
 	display: inline-block;
-	padding: 19px 0px 19px 28px;
+	padding: 15px 0px 15px 28px;
 }
 .menu ul li a {
 	display: block;
@@ -266,6 +266,35 @@ a{
 .menu ul li a i {
 	font-size: 10px;
 	color: #6F6F6F;
+}
+.dropdown-container{
+	position: relative;
+	display: inline;
+	z-index: 10;
+}
+.dropdown-container:hover .dropdown-content{
+	display: block;
+}
+.dropdown-content {
+	position: absolute;
+	display: none;
+	background-color: #fff;
+	min-width: 105px;
+	text-align: center;
+	top: 15px;
+	right: -25px;
+	z-index: 10;
+	padding: 10px 0px 0px 0px;
+}
+.dropdown-content a {
+	font-size: 15px !important;
+	padding: 5px 0px;
+	border-bottom: 1px solid #f0f0fe;
+	cursor: pointer;
+	display: block;
+}
+.dropdown-content a:last-child{
+	border-bottom: 0;
 }
 .card_0 {
 	position: relative;
@@ -397,19 +426,17 @@ a{
 	word-spacing: -2px;
     padding-bottom: 30px;
 }
-.about-right {
-	padding-top: 215px;
-}
-.about-right p {
+.about-details p {
 	font-size: 24px;
 	font-weight: 400;
 	text-align: justify;
 	letter-spacing: -1px;
 	margin-bottom: 18px;
 }
-.about-right span {
+.about-details span {
 	word-spacing: -2px;
 	line-height: 29px;
+	display: block;
 }
 /* about area end */
 
@@ -536,42 +563,24 @@ a{
 .single-service1::before {
 	content: "";
 	position: absolute;
-	top: 29px;
-	left: 90px;
+	top: 19%;
+	left: 40%;
 	background-color: #fdeee7;
 	width: 80px;
 	height: 77px;
 	border-radius: 50%;
+	transform: translate(-19%,-40%);
 }
-.single-service2::before {
+.single-service2::before , .single-service3::before, .single-service4::before {
 	content: "";
 	position: absolute;
-	top: 29px;
-	left: 90px;
+	top: 19%;
+	left: 40%;
 	background-color: #e9f6eb;
 	width: 80px;
 	height: 77px;
 	border-radius: 50%;
-}
-.single-service3::before {
-	content: "";
-	position: absolute;
-	top: 29px;
-	left: 90px;
-	background-color: #fbe8f1;
-	width: 80px;
-	height: 77px;
-	border-radius: 50%;
-}
-.single-service4::before {
-	content: "";
-	position: absolute;
-	top: 29px;
-	left: 90px;
-	background-color: #eaecf1;
-	width: 80px;
-	height: 77px;
-	border-radius: 50%;
+	transform: translate(-19%,-40%);
 }
 .single-service1  img {
 	width: 60px;
@@ -785,19 +794,24 @@ a{
 }
 .sponsor .owl-prev {
 	position: absolute;
-	top: 26%;
+	top: 32%;
 	left: -26px;
 }
 .sponsor .owl-next {
 	position: absolute;
-	top: 26%;
+	top: 32%;
 	right: -26px;
 }
 .sponsor .owl-prev i, .sponsor .owl-next i {
-	padding: 12px;
-	font-size: 15px;
+	padding: 8px;
+	font-size: 10px;
 	color: #a9b7d1;
 	border: 1px solid #a9b7d1;
+}
+.owl-carousel .owl-item img {
+	display: block;
+	width: auto;
+	margin: auto;
 }
 /* sponsor area end */
 

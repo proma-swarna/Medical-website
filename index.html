@@ -5,82 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patien</title>
+
+    <!--BootsTrap-->
+    <link rel="stylesheet" href="assets/css/bootstrap5.min.css">
     <!--Owl.carousel-->
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <!--FontAwsome-->
     <link rel="stylesheet" href="assets/css/fontawsome.min.css">
-    <!--BootsTrap-->
-    <link rel="stylesheet" href="assets/css/bootstrap5.min.css">
     <!--Responsive-->
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!--style.css-->
     <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
+<body id="blur">
+
     <!--header area start-->
     <section class="home-header-top">
         <div class="container">
             <div class="row">
-                <div class="col-xl-5 col-xxl-5 col-lg-3 col-md-2 col-sm-12">
+                <div class="col-lg-7 col-md-5 col-sm-12">
                     <div class="row">
                         <div class="social-icon">
-                            <i class="fab fa-facebook-f" style="padding: 5px 7px;"></i>
-                            <i class="fab fa-pinterest"></i>
-                            <i class="fab fa-twitter"></i>
+                            <a href=""><i class="fab fa-facebook-f" style="padding: 5px 7px;"></i></a>
+                            <a href=""><i class="fab fa-pinterest"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-7 col-xxl-7 col-lg-9 col-md-10 col-sm-12">
+                <div class="col-lg-5 col-md-7 col-sm-12">
                     <div class="row">
-                        <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-6 header-top-details">
+                        <div class="col-lg-6 col-sm-6 header-top-details">
                             <div class="row">
-                                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-4  header-top-icon">
+                                <div class="col-lg-4 col-sm-4  header-top-icon">
                                     <img src="assets/img/clock.png" alt="">
                                 </div>
-                                <div class="col-xl-8 col-xxl-8 col-lg-8 col-md-8 col-sm-8 header-top-icon-details">
+                                <div class="col-lg-8 col-sm-8 header-top-icon-details">
                                     <span>monday - friday</span>
                                     <p>08:00 AM-08:00 PM</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-6 header-top-details">
+                        <div class="col-lg-6 col-sm-6 header-top-details">
                             <div class="row">
-                                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-4 header-top-icon">
+                                <div class="col-lg-4 col-sm-4 header-top-icon">
                                     <img src="assets/img/phone.png" alt="">
                                 </div>
-                                <div class="col-xl-8 col-xxl-8 col-lg-8 col-md-8 col-sm-8 header-top-icon-details">
+                                <div class="col-lg-8 col-sm-8 header-top-icon-details">
                                     <span>call now</span>
                                     <p>+1 (514)312-5678</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div class="button">
-                                <a href=""><img src="assets/img/calender.png" alt=""> Make an Appointment</a>
-                            </div>
-                        </div>     
+                        </div>   
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="header-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-xxl-3 col-lg-3 col-md-2 col-sm-12">
+                <div class="col-lg-3 col-md-2 col-sm-12">
                     <div class="logo">
                         <a href=""><img src="assets/img/logo.png" alt=""></a>
                     </div>
                 </div>
-                <div class="col-xl-9 col-xxl-9 col-lg-9 col-md-10 col-sm-12">
+                <div class="col-lg-9 col-md-10 col-sm-12">
                     <div class="menu">
                         <ul>
                             <li><a href="index.html">home</a></li>
-                            <li><a href="#">pages <i class="fas fa-angle-down"></i></a></li>
+                            <li>
+                                <div class="dropdown-container">
+                                    <a href="#">pages <i class="fas fa-angle-down"></i></a>
+                                    <div class="dropdown-content">
+                                        <a href="#">page 1</a>
+                                        <a href="#">page 2</a>
+                                        <a href="#">page 3</a>
+                                    </div>
+                                </div>
+                            </li>
                             <li><a href="#">portfolio</a></li>
-                            <li><a href="#">shop <i class="fas fa-angle-down"></i></a></li>
-                            <li><a href="blog.html">news <i class="fas fa-angle-down"></i></a></li>
+                            <li>
+                                <div class="dropdown-container">
+                                    <a href="#">shop <i class="fas fa-angle-down"></i></a>
+                                    <div class="dropdown-content">
+                                        <a href="#">page 1</a>
+                                        <a href="#">page 2</a>
+                                        <a href="#">page 3</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown-container">
+                                    <a href="#">news <i class="fas fa-angle-down"></i></a>
+                                    <div class="dropdown-content">
+                                        <a href="#">news 1</a>
+                                        <a href="#">news 2</a>
+                                        <a href="#">news 3</a>
+                                    </div>
+                                </div>
+                            </li>
                             <li><a href="contact.html">contact</a></li>
                             <li><a href="#"><img src="assets/img/search.png" alt=""></a></li>
                             <li class="card_0"><a href=""><img src="assets/img/card.png" alt=""></a></li>
@@ -91,13 +117,12 @@
         </div>
     </section>
     <!--header area end-->
+
     <!--home-banner area start-->
-    <section class="home-banner col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12">
+    <section class="home-banner">
         <div class="container">
             <div class="home-banner-content">
-                <h1>Our priority is to
-                    ensure the well
-                    being of patients.</h1>
+                <h1>Our priority is to ensure the well being of patients.</h1>
                 <p>Our service and the work efficiency of our staff are the reasons
                     for our success.</p>
                 <div class="button2">
@@ -106,19 +131,20 @@
             </div>
         </div>
     </section>
+
     <section class="banner-bottom pb-100">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-12 text-center banner-bottom-details">
+                <div class="col-lg-4 col-sm-4 text-center banner-bottom-details">
                     <img src="assets/img/dr_icon.png" alt="">
                     <span>Find a Doctor</span>
                 </div>
                
-                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-12 text-center banner-bottom-details margin-top">
+                <div class="col-lg-4 col-sm-4 text-center banner-bottom-details margin-top">
                     <img src="assets/img/home-calender-icon.png" alt="">
                     <span>Request an Appointment</span>
                 </div>
-                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-12 text-center banner-bottom-details">
+                <div class="col-lg-4 col-sm-4 text-center banner-bottom-details">
                     <img src="assets/img/home-box-icon.png" alt="">
                     <span>Emergency Case</span>
                 </div>
@@ -127,20 +153,21 @@
     </section>
     <!--home-banner area end-->
     <!--about area start-->
-    <section class="about-area pt-100 pb-100">
+    <section class="about-area pb-80">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-6 col-sm-12 ">
+                <div class="col-lg-6 col-sm-12 ">
                     <div class="about-left">
                         <span>Why Choose Us</span>
-                        <h2>A hospital is an institution where
-                            patients are treated. Our doctor’s
-                            is always engaged in this work.</h2>
-                        <img src="assets/img/home-about-left.png" alt="">
+                        <h2>A hospital is an institution where patients are treated. Our doctor’s is always engaged in this work.</h2>
                     </div>
                 </div>
-                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-6 col-sm-12 ">
-                    <div class="about-right">
+                <div class="col-lg-6 col-sm-12"></div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="assets/img/home-about-left.png" alt="">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="about-details">
                         <p>In remote & the around places who lives there,Medical science is changing their medical care,education & re-search impact.</p>
                         <span>Our most experienced doctors,emergency doctors,nurses,therapist & research-ers give Their Best in this hospital.they also provide advanced medicine facili-ties,campuses,clinics & classrooms.we give patients best innovative treatment and best service to improve the health and overall wellbeing of our community.</span>
                         <div class="button2">
@@ -156,19 +183,22 @@
     <section class="book">
         <div class="container book-button">
             <div class="row">
-                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-12 col-sm-12 book-details">
+                <div class="col-lg-4 col-sm-12 book-details">
                     <p>Book an appointment</p>
                 </div>
-                <div class="col-xl-3 col-xxl-3 col-lg-3 col-md-6 col-sm-6  option-field">
+                <div class="col-lg-3 col-sm-6  option-field">
                     <select>
+                        <option>Doctor name</option>
+                        <option>Doctor name</option>
+                        <option>Doctor name</option>
                         <option>Doctor name</option>
                     </select>
                 </div>
-                <div class="col-xl-3 col-xxl-3 col-lg-3 col-md-6 col-sm-6 date-field">
+                <div class="col-lg-3 col-sm-6 date-field">
                     <input type="date" placeholder="dated">
                     <img src="assets/img/book-calender.png" alt="">
                 </div>
-                <div class="col-xl-2 col-xxl-2 col-lg-2 col-md-12 col-sm-12">
+                <div class="col-lg-2 col-sm-12">
                     <div class="button4">
                         <a href="">Book now</a>
                     </div>
@@ -178,10 +208,10 @@
     </section>
     <!--book area end-->
     <!--service area start-->
-    <section class="services pt-100 pb-80">
+    <section class="services pb-80">
         <div class="container">
-            <div class="row pt-50">
-                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-6 col-sm-12">
+            <div class="row pt-30">
+                <div class="col-lg-6 col-sm-6">
                     <div class="services-header">
                         <span>Our Services</span>
                         <h2>All the services that I provide
@@ -189,35 +219,35 @@
                             treatment</h2>
                     </div>
                 </div>
-                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-6 col-sm-12 text-right">
+                <div class="col-lg-6 col-sm-6 text-right">
                     <div class="button3">
                         <a href="">View all services</a>
                     </div>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-xl-3 col-xxl-3 col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-sm-6">
                     <div class="single-service1">
                         <img src="assets/img/home-service-img1.png" alt="">
                         <p>Cardiology</p>
                         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
                     </div>
                 </div>
-                <div class="col-xl-3 col-xxl-3 col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-sm-6">
                     <div class="single-service2">
                         <img src="assets/img/home-service-img2.png" alt="">
                         <p>Neurology</p>
                         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
                     </div>
                 </div>
-                <div class="col-xl-3 col-xxl-3 col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-sm-6">
                     <div class="single-service3">
                         <img src="assets/img/home-service-img3.png" alt="">
                         <p>Cancer Care</p>
                         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
                     </div>
                 </div>
-                <div class="col-xl-3 col-xxl-3 col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-sm-6">
                     <div class="single-service4">
                         <img src="assets/img/home-service-img4.png" alt="">
                         <p>Laboratory</p>
@@ -229,10 +259,10 @@
     </section>
     <!--service area end-->
     <!--testimonial area start-->
-    <section class="testimonial-area pt-50 pb-120">
+    <section class="testimonial-area pb-100">
         <div class="container">
             <div class="row pt-50">
-                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-6 col-sm-12">
                     <div class="services-header">
                         <span>Testimonial</span>
                         <h2>What Our Patients Say?</h2>
@@ -243,10 +273,10 @@
                 <div class="testimonials owl-carousel">
                     <div class="single-testimonial">
                         <div class="row">
-                            <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-12 col-sm-12 single-testimonial-left">
+                            <div class="col-lg-4 col-sm-12 single-testimonial-left">
                                 <img src="assets/img/testemonial-img1.png" alt="">
                             </div>
-                            <div class="col-xl-8 col-xxl-8 col-lg-8 col-md-12 col-sm-12 single-testimonial-right">
+                            <div class="col-lg-8 col-sm-12 single-testimonial-right">
                                 <div class="row">
                                     <div class="single-testimonial-right-img1 text-center">
                                         <img src="assets/img/home-testimonial-icon.png" alt="">
@@ -263,10 +293,10 @@
                     </div>
                     <div class="single-testimonial">
                         <div class="row">
-                            <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-12 col-sm-12 single-testimonial-left">
+                            <div class="col-lg-4 col-sm-12 single-testimonial-left">
                                 <img src="assets/img/testimonial-img2.png" alt="">
                             </div>
-                            <div class="col-xl-8 col-xxl-8 col-lg-8 col-md-12 col-sm-12 single-testimonial-right">
+                            <div class="col-lg-8 col-sm-12 single-testimonial-right">
                                 <div class="row">
                                     <div class="single-testimonial-right-img1 text-center">
                                         <img src="assets/img/home-testimonial-icon.png" alt="">
@@ -283,10 +313,10 @@
                     </div>
                     <div class="single-testimonial">
                         <div class="row">
-                            <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-12 col-sm-12 single-testimonial-left">
+                            <div class="col-lg-4 col-sm-12 single-testimonial-left">
                                 <img src="assets/img/testemonial-img1.png" alt="">
                             </div>
-                            <div class="col-xl-8 col-xxl-8 col-lg-8 col-md-12 col-sm-12 single-testimonial-right">
+                            <div class="col-lg-8 col-sm-12 single-testimonial-right">
                                 <div class="row">
                                     <div class="single-testimonial-right-img1 text-center">
                                         <img src="assets/img/home-testimonial-icon.png" alt="">
@@ -309,24 +339,24 @@
     <section class="line pt-50">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="col-lg-12 col-sm-12">
                     <div class="line-area"></div>
                 </div>
             </div>
         </div>
     </section>
     <!--specialist area start-->
-    <section class="specialist-area pt-50 pb-120">
+    <section class="specialist-area pb-80">
         <div class="container">
             <div class="row pt-50">
-                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-6 col-sm-12">
                     <div class="specialist-header">
                         <span>Our Specialists</span>
                         <h2>We have specialist doctor’s
                             for emergency services.</h2>
                     </div>
                 </div>
-                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12"></div>
+                <div class="col-lg-6 col-sm-12"></div>
             </div>
             <div class="specialists owl-carousel text-left">
                 <div class="single-specialist">
@@ -394,10 +424,10 @@
     </section> 
     <!--specialist area end-->
     <!--project area start-->
-    <section class="project pt-100 pb-80">
+    <section class="project pb-80">
         <div class="container">
             <div class="row pt-50">
-                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-sm-6">
                     <div class="services-header">
                         <span>Our Projects</span>
                         <h2>Below ate some examples of
@@ -405,14 +435,14 @@
                             to our patients</h2>
                     </div>
                 </div>
-                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-6 col-sm-12 text-right">
+                <div class="col-lg-6 col-sm-6 text-right">
                     <div class="button3">
                         <a href="">View all projects</a>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-12">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="single-project">
                         <img src="assets/img/project-img1.png" alt="">
                         <div class="single-project-content">
@@ -420,7 +450,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="single-project">
                         <img src="assets/img/project-img2.png" alt="">
                         <div class="single-project-content">
@@ -428,7 +458,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="single-project">
                         <img src="assets/img/project-img3.png" alt="">
                         <div class="single-project-content">
@@ -444,7 +474,7 @@
     <div class="sopnsor-area">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12 sponsor  owl-carousel">
+                <div class="col-lg-12 col-sm-12 sponsor  owl-carousel">
                     <div class="single-sponsor">
                         <img src="assets/img/client1.png" alt="">
                     </div>  
@@ -469,20 +499,20 @@
     </div>
      <!--sponsor area end-->
     <!--home-blog area start-->
-    <section class="news-area pt-50 pb-120">
+    <section class="news-area pb-80">
         <div class="container">
             <div class="row pt-50">
-                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="specialist-header">
                         <span>Recent News</span>
                         <h2>All the recent news about our
                             treatment has been published</h2>
                     </div>
                 </div>
-                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6"></div>
             </div>
-            <div class="row">
-                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-12">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="home-blog-details">
                         <img src="assets/img/blog-img1.png" alt="">
                         <div class="home-blog-details-content">
@@ -490,17 +520,17 @@
                             <p>It might be time to seek a medical
                                 your muscle and joint pain.  </p>
                             <div class="row blog-bottom">
-                                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
                                     <span>By: Curtis Warren</span>
                                 </div>
-                                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
                                     <a href="">Read more  <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="home-blog-details">
                         <img src="assets/img/blog-img2.png" alt="">
                         <div class="home-blog-details-content">
@@ -508,17 +538,17 @@
                             <p>the reassurance of a safe pregnancy
                                 through the birth of your baby. </p>
                             <div class="row blog-bottom">
-                                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
                                     <span>By: James Lopez</span>
                                 </div>
-                                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
                                     <a href="">Read more  <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="home-blog-details">
                         <img src="assets/img/blog-img3.png" alt="">
                         <div class="home-blog-details-content">
@@ -526,10 +556,10 @@
                             <p>the reassurance of a safe pregnancy
                                 through the birth of your baby. </p>
                             <div class="row blog-bottom">
-                                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
                                     <span>By: James Lopez</span>
                                 </div>
-                                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
                                     <a href="">Read more  <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -544,21 +574,21 @@
     <section class="book mb-20">
         <div class="container book-button">
             <div class="row">
-                <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12 book-details2 text-left">
+                <div class="col-lg-6 col-md-12 col-sm-12 book-details2 text-left">
                     <div class="row">
-                        <div class="col-xl-2 col-xxl-2 col-lg-2 col-md-3  email">
+                        <div class="col-lg-2 col-md-3  email">
                             <img src="assets/img/home-email-icon.png" alt="">
                         </div>
-                        <div class="col-xl-10 col-xxl-10 col-lg-10 col-md-9 col-sm-12 email-details">
+                        <div class="col-lg-10 col-md-9 col-sm-12 email-details">
                             <p>Sing up for Newsletter</p>
                             <span>Subscribe to the newsletter for all the latest updates</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-12 col-sm-12 date-field">
+                <div class="col-lg-4 col-md-12 col-sm-12 date-field">
                     <input type="email" placeholder="Your email">
                 </div>
-                <div class="col-xl-2 col-xxl-2 col-lg-2 col-md-12 col-sm-12">
+                <div class="col-lg-2 col-md-12 col-sm-12">
                     <div class="button4">
                         <a href="">Subscribe</a>
                     </div>
@@ -571,7 +601,7 @@
     <section class="home-footer pt-60 pb-50">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="logo2">
                         <img src="assets/img/logo.png" alt="">
                     </div>
@@ -582,7 +612,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 col-xxl-2 col-lg-2 col-md-6 col-sm-12">
+                <div class="col-lg-2 col-md-6 col-sm-12">
                     <div class="departments">
                         <h6>Our departments</h6>
                         <ul>
@@ -595,7 +625,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-2 col-xxl-2 col-lg-2 col-md-6 col-sm-12">
+                <div class="col-lg-2 col-md-6 col-sm-12">
                     <div class="links">
                         <h6>Popular links</h6>
                         <ul>
@@ -608,7 +638,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="contact-us">
                         <h6>Contact us</h6>
                         <span>For 24/7 emergency please call us.if there is no emergency,contact at normal time.</span>
@@ -620,20 +650,19 @@
                         </div>
                         <div class="time-schedule2">
                             <ul>
-                                <li><div class="row"><div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-12 day"><span>Weekdays</span></div><div class="col-xl-8 col-xxl-8 col-lg-8 col-md-8 col-sm-12  time"><span>8:00am-6:00pm</span></div></div></li>
-                                <li><div class="row"><div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-sm-12 day"><span>Sunday</span></div><div class="col-xl-8 col-xxl-8 col-lg-8 col-md-8 col-sm-12  time"><span>9:00am-3:00pm</span></div></div></li>
+                                <li><div class="row"><div class="col-lg-4 col-md-4 col-sm-12 day"><span>Weekdays</span></div><div class="col-lg-8 col-md-8 col-sm-12  time"><span>8:00am-6:00pm</span></div></div></li>
+                                <li><div class="row"><div class="col-lg-4 col-md-4 col-sm-12 day"><span>Sunday</span></div><div class="col-lg-8 col-md-8 col-sm-12  time"><span>9:00am-3:00pm</span></div></div></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-1 col-xxl-1 col-lg-1 col-md-12 col-sm-12"></div>
             </div>
         </div>
     </section>
     <section class="home-footer-bottom pt-30 pb-30">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12 text-center ">
+                <div class="col-lg-12 col-sm-12 text-center ">
                     <span>Copyright @2020 Patien. Designed By EnvyTheme</span>
                 </div>
             </div>
